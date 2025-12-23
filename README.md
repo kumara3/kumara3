@@ -142,19 +142,6 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 ---
 
-### 🔧 GitHub Commits
-
-![](https://img.shields.io/github/last-commit/kumara3/gitr?logo=github&label=gitr)
-![](https://img.shields.io/github/last-commit/kumara3/helpr?logo=github&label=helpr)
-![](https://img.shields.io/github/last-commit/kumara3/kumara3?logo=github&label=profile)
-![](https://img.shields.io/github/last-commit/kumara3/system-config?logo=github&label=system-config)
-![](https://img.shields.io/github/last-commit/kumara3/tech-notes?logo=github&label=tech-notes)
-![](https://img.shields.io/github/last-commit/kumara3/code-works?logo=github&label=code-works)
-![](https://img.shields.io/github/last-commit/kumara3/reprex-collection?logo=github&label=reprex-collection)
-![](https://img.shields.io/github/last-commit/kumara3/devel?logo=github&label=devel)
-
----
-
 <!-- links to your social media accounts -->
 [1]: https://github.com/kumara3
 [2]: https://www.linkedin.com/in/kumara3/
