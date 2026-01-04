@@ -60,24 +60,26 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 ## Articles 📚
 
-| Topic 🚀                               | Link to Read    |
-|:-------------------------------------- |:----------------:|
-| [Single Cell (scVI)]()     | <a href="blog/scvi/scvi_markdown.md"></a> |
-| [Single Cell (SCTransform)]()          | <a href="https://medium.com/@ashwani.vit/data-normalization-using-sctransform-12b0c1abd91b"></a> |
-| [Single Cell (clustree)]()             | <a href="https://medium.com/@ashwani.vit/clustree-deciding-clusters-at-different-resolution-d99ebf6654e3"></a> |
-| [WGS (Variant Calls in ONT)]()         | <a href="https://medium.com/@ashwani.vit/benchmarking-ont-pipeline-for-variant-calls-in-wgs-data-3ab762c6f640"></a> |
-| [Machine Learning (Naïve Bayes)]()     | <a href="https://medium.com/@ashwani.vit/na%C3%AFve-bayes-classifier-for-text-classification-using-tf-idf-in-pyspark-3529f828b8b4"></a> |
-| [Negative Binomial]()     | <a href="blog/negative-binomial/negative-binomial-rnaseq-edger.md"></a> |
+| Topic 🚀 | Link to Read 📖 |
+|:--|:--:|
+| **Single Cell (scVI)** | [Read →](blog/scvi/scvi_markdown.md) |
+| **Single Cell (SCTransform)** | [Read →](https://medium.com/@ashwani.vit/data-normalization-using-sctransform-12b0c1abd91b) |
+| **Single Cell (clustree)** | [Read →](https://medium.com/@ashwani.vit/clustree-deciding-clusters-at-different-resolution-d99ebf6654e3) |
+| **WGS (Variant Calls in ONT)** | [Read →](https://medium.com/@ashwani.vit/benchmarking-ont-pipeline-for-variant-calls-in-wgs-data-3ab762c6f640) |
+| **Machine Learning (Naïve Bayes)** | [Read →](https://medium.com/@ashwani.vit/na%C3%AFve-bayes-classifier-for-text-classification-using-tf-idf-in-pyspark-3529f828b8b4) |
+| **Negative Binomial (RNA-seq)** | [Read →](blog/negative-binomial/negative-binomial-rnaseq-edger.md) |
+
 
 ---
 
 ## Paper Review
 
-| Topic 🚀                                                     | Thumbnail 📈     |
-|:------------------------------------------------------------ |:----------------:|
-| [Glioma Niches in Spatial Transcriptomics]   | <a href="https://github.com/kumara3/multiomics_spatialTranscriptomics"><img src="asset/figures/spatialTranscript.png" width="100px"></a> |
-| [Limits in the detection of m6A changes using MeRIP/m6A-seq]   | <a href="blog/merip Limits_m6a_methylation.pdf"><img src="" width="100px"></a> |
+## Paper Reviews 🧪
 
+| Topic 🚀 | Preview 📈 |
+|:--|:--:|
+| **Glioma Niches in Spatial Transcriptomics** | [<img src="asset/figures/spatialTranscript.png" width="40"/>](https://github.com/kumara3/multiomics_spatialTranscriptomics) |
+| **Limits in detecting m6A changes (MeRIP/m6A-seq)** | [<img src="asset/figures/me6a.png" width="40"/>](blog/merip%20Limits_m6a_methylation.pdf) |
 
 
 ---
