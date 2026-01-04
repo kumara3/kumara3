@@ -63,6 +63,7 @@ I prioritize mentoring junior team members and partnering effectively with senio
 | Topic 🚀 | Link to Read 📖 |
 |:--|:--:|
 | **Single Cell (scVI)** | [Read →](blog/scvi/scvi_markdown.md) |
+| **Fine tuning using LoRA (LLM)** | [Read ->](https://github.com/kumara3/DeepDive_LORA) |
 | **Single Cell (SCTransform)** | [Read →](https://medium.com/@ashwani.vit/data-normalization-using-sctransform-12b0c1abd91b) |
 | **Single Cell (clustree)** | [Read →](https://medium.com/@ashwani.vit/clustree-deciding-clusters-at-different-resolution-d99ebf6654e3) |
 | **WGS (Variant Calls in ONT)** | [Read →](https://medium.com/@ashwani.vit/benchmarking-ont-pipeline-for-variant-calls-in-wgs-data-3ab762c6f640) |
