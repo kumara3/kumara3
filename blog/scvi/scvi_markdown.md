@@ -3,7 +3,7 @@
 
 ---
 
-## 📊 Model Overview
+## 📊 Model Overview (https://docs.scvi-tools.org/en/stable/user_guide/models/scvi.html)
 
 scVI (single-cell Variational Inference) is a probabilistic model that uses deep learning to analyze gene expression data from individual cells. It handles technical noise and batch effects while learning meaningful biological patterns.
 
@@ -17,7 +17,7 @@ Think of scVI like a sophisticated photo editor that:
 
 ---
 
-## 🎲 Generative Process: How Data is Created
+## Generative Process: How Data is Created
 
 The model assumes each gene expression value is generated through this hierarchical process:
 
@@ -54,7 +54,7 @@ x_ng ~ ZINB(ℓ_n · w_ng, θ_g, h_ng)
 
 ---
 
-## 📐 Numerical Example
+## Numerical Example
 
 ### For Cell n=1, Gene g=5 (e.g., CD4):
 
@@ -71,7 +71,7 @@ x_ng ~ ZINB(ℓ_n · w_ng, θ_g, h_ng)
 
 ---
 
-## 🧠 Neural Network Architecture
+## Neural Network Architecture
 
 ### Encoder Networks (Inference)
 
@@ -110,7 +110,7 @@ Map latent space back to gene expression:
 
 ---
 
-## 🔍 Variational Inference
+## Variational Inference
 
 Since exact posterior is intractable, scVI uses variational inference to approximate it.
 
@@ -138,7 +138,7 @@ KL(q || p)
 
 ---
 
-## 🎯 Optimization Strategy
+## Optimization Strategy
 
 ### Mini-batch Stochastic Optimization:
 
@@ -159,7 +159,7 @@ KL(q || p)
 
 ---
 
-## 📈 Zero-Inflated Negative Binomial (ZINB)
+## Zero-Inflated Negative Binomial (ZINB)
 
 Handles both biological zeros and technical dropout:
 
@@ -192,27 +192,27 @@ P(x = k) = (1-h)·NB(k|μ, θ), for k > 0
 
 ---
 
-## ✨ Key Advantages & Features
+## Key Advantages & Features
 
-### 🚀 Scalability
+### Scalability
 - Mini-batch training (128 cells)
 - No need to load entire dataset
 - GPU acceleration
 - Handles millions of cells
 
-### 🔧 Batch Correction
+### Batch Correction
 - Batch annotation (s_n) as input
 - Conditional independence in latent space
 - No explicit MMD penalty needed
 - Preserves biological signal
 
-### 📊 Flexibility
+### Flexibility
 - Beyond generalized linear models
 - Neural networks learn complex patterns
 - 3 hyperparameters to tune
 - Automatic hyperparameter selection
 
-### 🎯 Biological Accuracy
+### Biological Accuracy
 - ZINB handles technical dropout
 - Gene-specific dispersion
 - Library size normalization
@@ -220,7 +220,7 @@ P(x = k) = (1-h)·NB(k|μ, θ), for k > 0
 
 ---
 
-## ⚙️ Hyperparameters
+## Hyperparameters
 
 | Parameter | Typical Range | Selection Method |
 |-----------|---------------|------------------|
@@ -234,7 +234,7 @@ P(x = k) = (1-h)·NB(k|μ, θ), for k > 0
 
 ---
 
-## 🔄 Complete Training Workflow
+## Complete Training Workflow
 
 ### 1. Data Preparation
 - **Input:** X (cells × genes), batch annotations
@@ -273,13 +273,13 @@ P(x = k) = (1-h)·NB(k|μ, θ), for k > 0
 
 ↓
 
-### 7. Convergence ✅
+### 7. Convergence
 - Repeat steps 3-6 for 120-250 epochs
 - Monitor validation loss for early stopping
 
 ---
 
-## 📊 Training Time Example
+## Training Time Example
 
 **Dataset:** 100,000 cells × 20,000 genes
 
@@ -295,7 +295,7 @@ P(x = k) = (1-h)·NB(k|μ, θ), for k > 0
 
 ---
 
-## 🔑 Key Mathematical Properties
+## Key Mathematical Properties
 
 ### Mean-Field Variational Distribution
 ```
@@ -320,7 +320,7 @@ p(x | z, ℓ, s) = ∏_g p(x_g | z, ℓ, s)
 
 ---
 
-## 📝 Variable Glossary
+## Variable Glossary (https://docs.scvi-tools.org/en/stable/user_guide/models/scvi.html)
 
 | Symbol | Meaning | Dimensions |
 |--------|---------|------------|
@@ -339,7 +339,7 @@ p(x | z, ℓ, s) = ∏_g p(x_g | z, ℓ, s)
 
 ---
 
-## 🎓 Advanced Concepts
+## The Why's
 
 ### Why Neural Networks?
 Traditional generalized linear models (GLMs) assume a specific functional form relating covariates to outcomes. Neural networks allow scVI to:
@@ -362,13 +362,13 @@ Traditional generalized linear models (GLMs) assume a specific functional form r
 
 ---
 
-## 🔬 Practical Considerations
+## Practical Considerations
 
 ### When to Use scVI:
-✅ Large-scale single-cell RNA-seq datasets
-✅ Multiple batches/experiments to integrate
-✅ Need for batch correction and dimensionality reduction
-✅ Downstream tasks: clustering, differential expression, imputation
+- Large-scale single-cell RNA-seq datasets
+- Multiple batches/experiments to integrate
+- Need for batch correction and dimensionality reduction
+- Downstream tasks: clustering, differential expression, imputation
 
 ### Computational Requirements:
 - **GPU:** Highly recommended for datasets > 10,000 cells
@@ -382,7 +382,7 @@ Traditional generalized linear models (GLMs) assume a specific functional form r
 
 ---
 
-## 📚 Summary
+## Summary
 
 scVI combines:
 1. **Probabilistic modeling** (ZINB distribution)
@@ -395,14 +395,3 @@ This creates a powerful, scalable framework for single-cell gene expression anal
 **Key Innovation:** Using neural networks within a probabilistic framework allows flexible modeling while maintaining interpretability through the generative process.
 
 ---
-
-## 🔗 Related Concepts
-
-- **Variational Autoencoders (VAEs):** scVI is a specialized VAE for count data
-- **Bayesian Deep Learning:** Combines neural networks with probabilistic inference
-- **Generative Models:** Learn to generate realistic data samples
-- **Dimensionality Reduction:** t-SNE, UMAP can be applied to scVI latent space
-
----
-
-*This guide provides a comprehensive overview of the scVI model with mathematical details and practical examples for understanding single-cell variational inference.*

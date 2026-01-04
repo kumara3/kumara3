@@ -77,7 +77,7 @@ I prioritize mentoring junior team members and partnering effectively with senio
 | Topic 🚀 | Preview 📈 |
 |:--|:--:|
 | **Glioma Niches in Spatial Transcriptomics** | [<img src="asset/figures/spatialTranscript.png" width="40"/>](https://github.com/kumara3/multiomics_spatialTranscriptomics) |
-| **Limits in detecting m6A changes (MeRIP/m6A-seq)** | [<img src="asset/figures/me6a.png" width="40"/>](blog/merip%20Limits_m6a_methylation.pdf) |
+| **Limits in detecting m6A changes (MeRIP/m6A-seq)** | [<img src="asset/figures/me6a.png" width="40"/>](blog/merip/Limits_m6a_methylation.pdf) |
 
 
 ---
