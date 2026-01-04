@@ -48,7 +48,7 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 ---
 
-#### Expertise
+## Expertise
 
 - **Omics Data Analysis:** Extensive experience with WGS/WES, scRNA-seq, ATAC-seq, spatial transcriptomics, RNA velocity, pseudotime, and gene regulatory network (GRN) inference.  
 - **Collaboration:** Led highly collaborative, cross-functional projects that generated robust findings and novel biological insights.  
@@ -71,8 +71,6 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 
 ---
-
-## Paper Review
 
 ## Paper Reviews 🧪
 
