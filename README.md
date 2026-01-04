@@ -50,8 +50,7 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 #### Expertise
 
-- **Omics Data Analysis:** Extensive experience with WGS/WES, scRNA-seq, ATAC-seq, spatial transcriptomics,  
-  RNA velocity, pseudotime, and gene regulatory network (GRN) inference.  
+- **Omics Data Analysis:** Extensive experience with WGS/WES, scRNA-seq, ATAC-seq, spatial transcriptomics, RNA velocity, pseudotime, and gene regulatory network (GRN) inference.  
 - **Collaboration:** Led highly collaborative, cross-functional projects that generated robust findings and novel biological insights.  
 - **Analysis & Reporting:** Developed standardized analysis pipelines, reports, and publication-quality figures to enable reproducible research across the organization.  
 - **Mentorship:** Mentored researchers in reproducible workflows, version control, and computational best practices.  
@@ -61,13 +60,14 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 ## Articles 📚
 
-| Topic 🚀                               | Thumbnail 📈     |
+| Topic 🚀                               | Link to Read    |
 |:-------------------------------------- |:----------------:|
-| [Single Cell (scVI)](articles/.md)     | <a href="articles/false-pos-q-values.md"><img src="articles/figures/fdr-power-1.png" width="100px"></a> |
-| [Single Cell (SCTransform)]()          | <a href="https://medium.com/@ashwani.vit/data-normalization-using-sctransform-12b0c1abd91b"><img src="" width="100px"></a> |
-| [Single Cell (clustree)]()             | <a href="https://medium.com/@ashwani.vit/clustree-deciding-clusters-at-different-resolution-d99ebf6654e3"><img src="" width="100px"></a> |
-| [WGS (Variant Calls in ONT)]()         | <a href="https://medium.com/@ashwani.vit/benchmarking-ont-pipeline-for-variant-calls-in-wgs-data-3ab762c6f640"><img src="" width="100px"></a> |
-| [Machine Learning (Naïve Bayes)]()     | <a href="https://medium.com/@ashwani.vit/na%C3%AFve-bayes-classifier-for-text-classification-using-tf-idf-in-pyspark-3529f828b8b4"><img src="" width="100px"></a> |
+| [Single Cell (scVI)]()     | <a href="blog/scvi/scvi_markdown.md"></a> |
+| [Single Cell (SCTransform)]()          | <a href="https://medium.com/@ashwani.vit/data-normalization-using-sctransform-12b0c1abd91b"></a> |
+| [Single Cell (clustree)]()             | <a href="https://medium.com/@ashwani.vit/clustree-deciding-clusters-at-different-resolution-d99ebf6654e3"></a> |
+| [WGS (Variant Calls in ONT)]()         | <a href="https://medium.com/@ashwani.vit/benchmarking-ont-pipeline-for-variant-calls-in-wgs-data-3ab762c6f640"></a> |
+| [Machine Learning (Naïve Bayes)]()     | <a href="https://medium.com/@ashwani.vit/na%C3%AFve-bayes-classifier-for-text-classification-using-tf-idf-in-pyspark-3529f828b8b4"></a> |
+| [Negative Binomial]()     | <a href="blog/negative-binomial/negative-binomial-rnaseq-edger.md"></a> |
 
 ---
 
@@ -75,16 +75,44 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 | Topic 🚀                                                     | Thumbnail 📈     |
 |:------------------------------------------------------------ |:----------------:|
-| [](articles/baseball-strike-classifier.md)   | <a href="articles/baseball-strike-classifier.md"><img src="articles/figures/strike-log-odds-1.png" width="100px"></a> |
+| [Glioma Niches in Spatial Transcriptomics]   | <a href="https://github.com/kumara3/multiomics_spatialTranscriptomics"><img src="asset/figures/spatialTranscript.png" width="100px"></a> |
+| [Limits in the detection of m6A changes using MeRIP/m6A-seq]   | <a href="blog/merip Limits_m6a_methylation.pdf"><img src="" width="100px"></a> |
+
+
 
 ---
 
 ## Selected Publications
 
+### 2025
 
-| Topic 🚀                                                     | Thumbnail 📈     |
-|:------------------------------------------------------------ |:----------------:|
-| [](articles/baseball-strike-classifier.md)   | <a href="articles/baseball-strike-classifier.md"><img src="articles/figures/strike-log-odds-1.png" width="100px"></a> |
+| Topic 🚀 | Google scholar |
+|:------------------------------------------------------------|:----------------:|
+| **Neurodevelopment & ribosome biogenesis** — *A programmed decline in ribosome levels governs human early neurodevelopment* (Nat Cell Biol, 2025) | <a href="https://scholar.google.com/scholar?hl=en&q=A+programmed+decline+in+ribosome+levels+governs+human+early+neurodevelopment">Google Scholar</a> |
+| **HER2+ breast cancer therapy resistance** — *ZMYND8 drives HER2 antibody resistance in breast cancer via lipid control of IL-27* (Nat Commun, 2025) | <a href="https://scholar.google.com/scholar?hl=en&q=ZMYND8+drives+HER2+antibody+resistance+in+breast+cancer+via+lipid+control+of+IL-27">Google Scholar</a> |
+| **Endometrial cancer initiation** — *A distinct mechanism of epigenetic reprogramming silences PAX2 and initiates endometrial carcinogenesis* (J Clin Invest, 2025) | <a href="https://scholar.google.com/scholar?hl=en&q=A+distinct+mechanism+of+epigenetic+reprogramming+silences+PAX2+and+initiates+endometrial+carcinogenesis">Google Scholar</a> |
+| **Tumor plasticity & immunogenicity** — *Tumoral RCOR2 promotes tumor development through dual epigenetic regulation of tumor plasticity and immunogenicity* (J Clin Invest, 2025) | <a href="https://scholar.google.com/scholar?hl=en&q=Tumoral+RCOR2+promotes+tumor+development+through+dual+epigenetic+regulation+of+tumor+plasticity+and+immunogenicity">Google Scholar</a> |
+| **In utero thymus rescue (22q11.2DS)** — *Minoxidil restores thymic growth in 22q11.2 deletion syndrome by limiting Sox9+ chondrocyte expansion* (J Hum Immun, 2025) | <a href="https://scholar.google.com/scholar?hl=en&q=Minoxidil+restores+thymic+growth+in+22q11.2+deletion+syndrome+by+limiting+Sox9+chondrocyte+expansion">Google Scholar</a> |
+
+### 2024
+
+| Topic 🚀 | Google scholar |
+|:------------------------------------------------------------|:----------------:|
+| **RNA modification & cancer** — *Cancer mutations rewire the RNA methylation specificity of METTL3-METTL14* (Sci Adv, 2024) | <a href="https://scholar.google.com/scholar?hl=en&q=Cancer+mutations+rewire+the+RNA+methylation+specificity+of+METTL3-METTL14">Google Scholar</a> |
+| **Cancer immunotherapy mechanism** — *Suppression of melanoma by mice lacking MHC-II: Mechanisms and implications for cancer immunotherapy* (J Exp Med, 2024) | <a href="https://scholar.google.com/scholar?hl=en&q=Suppression+of+melanoma+by+mice+lacking+MHC-II+Mechanisms+and+implications+for+cancer+immunotherapy">Google Scholar</a> |
+| **Antimalarial drug discovery** — *Identification of potent and reversible piperidine carboxamides that are species-selective orally active proteasome inhibitors to treat malaria* (Cell Chem Biol, 2024) | <a href="https://scholar.google.com/scholar?hl=en&q=Identification+of+potent+and+reversible+piperidine+carboxamides+that+are+species-selective+orally+active+proteasome+inhibitors+to+treat+malaria">Google Scholar</a> |
+| **Retinal neurodegeneration** — *E3 ubiquitin ligase Herc3 deficiency leads to accumulation of subretinal microglia and retinal neurodegeneration* (Sci Rep, 2024) | <a href="https://scholar.google.com/scholar?hl=en&q=E3+ubiquitin+ligase+Herc3+deficiency+leads+to+accumulation+of+subretinal+microglia+and+retinal+neurodegeneration">Google Scholar</a> |
+| **Breast cancer stem cell stress resistance** — *ZMYND8 protects breast cancer stem cells against oxidative stress and ferroptosis through activation of NRF2* (J Clin Invest, 2024) | <a href="https://scholar.google.com/scholar?hl=en&q=ZMYND8+protects+breast+cancer+stem+cells+against+oxidative+stress+and+ferroptosis+through+activation+of+NRF2">Google Scholar</a> |
+
+### 2023
+
+| Topic 🚀 | Google scholar |
+|:------------------------------------------------------------|:----------------:|
+| **Fuchs’ dystrophy meta-analysis** — *Transcriptomic meta-analysis reveals ERRalpha-mediated oxidative phosphorylation is downregulated in Fuchs' endothelial corneal dystrophy* (PLoS One, 2023) | <a href="https://scholar.google.com/scholar?hl=en&q=Transcriptomic+meta-analysis+reveals+ERRalpha-mediated+oxidative+phosphorylation+is+downregulated+in+Fuchs+endothelial+corneal+dystrophy">Google Scholar</a> |
+| **Interferon antiviral programs** — *Interferon inhibits a model RNA virus via a limited set of inducible effector genes* (EMBO Rep, 2023) | <a href="https://scholar.google.com/scholar?hl=en&q=Interferon+inhibits+a+model+RNA+virus+via+a+limited+set+of+inducible+effector+genes">Google Scholar</a> |
+| **Breast tumor epigenetic regulation** — *SAP30 promotes breast tumor progression by bridging the transcriptional corepressor SIN3 complex and MLL1* (J Clin Invest, 2023) | <a href="https://scholar.google.com/scholar?hl=en&q=SAP30+promotes+breast+tumor+progression+by+bridging+the+transcriptional+corepressor+SIN3+complex+and+MLL1">Google Scholar</a> |
+| **Retinal injury recovery (scRNA-seq)** — *Single Cell RNA Sequencing Analysis of Mouse Retina Identifies a Subpopulation of Muller Glia Involved in Retinal Recovery From Injury in the FCD-LIRD Model* (IOVS, 2023) | <a href="https://scholar.google.com/scholar?hl=en&q=Single+Cell+RNA+Sequencing+Analysis+of+Mouse+Retina+Identifies+a+Subpopulation+of+Muller+Glia+Involved+in+Retinal+Recovery+From+Injury+in+the+FCD-LIRD+Model">Google Scholar</a> |
+| **Oncofusion condensates (BRD4-NUT)** — *Molecular features driving condensate formation and gene expression by the BRD4-NUT fusion oncoprotein are overlapping but distinct* (Sci Rep, 2023) | <a href="https://scholar.google.com/scholar?hl=en&q=Molecular+features+driving+condensate+formation+and+gene+expression+by+the+BRD4-NUT+fusion+oncoprotein+are+overlapping+but+distinct">Google Scholar</a> |
 
 
 ---
@@ -133,15 +161,27 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 ### 📈 GitHub Stats
 
-<a href="https://github.com/kumara3">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kumara3&hide=java,html&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" />
-</a>
-<a href="https://github.com/kumara3">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=kumara3&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" alt="GitHub Stats" />
-</a>
+<p align="center">
+  <a href="https://github.com/kumara3">
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=kumara3&layout=compact&langs_count=8"
+      alt="Top Languages"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/kumara3">
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=kumara3&show_icons=true&count_private=true"
+      alt="GitHub Stats"
+    />
+  </a>
+</p>
 
 ---
 
-<!-- links to your social media accounts -->
-[1]: https://github.com/kumara3
-[2]: https://www.linkedin.com/in/kumara3/
+### 🔗 Connect with me
+
+- 💻 GitHub: https://github.com/kumara3
+- 💼 LinkedIn: https://www.linkedin.com/in/kumara3/
