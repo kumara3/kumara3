@@ -159,28 +159,6 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 ---
 
-### 📈 GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/kumara3">
-    <img
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=kumara3&layout=compact&langs_count=8"
-      alt="Top Languages"
-    />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/kumara3">
-    <img
-      src="https://github-readme-stats.vercel.app/api?username=kumara3&show_icons=true&count_private=true"
-      alt="GitHub Stats"
-    />
-  </a>
-</p>
-
----
-
 ### 🔗 Connect with me
 
 - 💻 GitHub: https://github.com/kumara3

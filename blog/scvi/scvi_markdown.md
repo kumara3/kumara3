@@ -1,9 +1,9 @@
-# 🧬 scVI Probabilistic Model
+# scVI Probabilistic Model
 ## Single-cell Variational Inference - A Deep Learning Framework for Gene Expression
 
 ---
 
-## 📊 Model Overview (https://docs.scvi-tools.org/en/stable/user_guide/models/scvi.html)
+## Model Overview (https://docs.scvi-tools.org/en/stable/user_guide/models/scvi.html)
 
 scVI (single-cell Variational Inference) is a probabilistic model that uses deep learning to analyze gene expression data from individual cells. It handles technical noise and batch effects while learning meaningful biological patterns.
 
