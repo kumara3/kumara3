@@ -62,6 +62,7 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 | Topic 🚀 | Link to Read 📖 |
 |:--|:--:|
+| **scVI and scanpy in R** | [Read →](blog/scvi/scvi_scanpy_workflow.md) |
 | **Single Cell (scVI)** | [Read →](blog/scvi/scvi_markdown.md) |
 | **Fine tuning using LoRA (LLM)** | [Read →](https://github.com/kumara3/DeepDive_LORA) |
 | **Single Cell (SCTransform)** | [Read →](https://medium.com/@ashwani.vit/data-normalization-using-sctransform-12b0c1abd91b) |
