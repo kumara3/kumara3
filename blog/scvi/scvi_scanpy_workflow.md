@@ -1,4 +1,4 @@
-# scvi-tools + Scanpy preprocessing and SCVI training in R (via reticulate)
+# Scanpy preprocessing and SCVI training in R (via reticulate)
 
 This walkthrough shows how to:
 
@@ -99,7 +99,6 @@ adata$X$shape
 > - Raw counts are preserved in: `adata$layers[["counts"]]`
 > - Normalized + log1p values are stored in: `adata$X`
 > - A snapshot of the current state is stored in: `adata$raw`
-> - More details on normlaization employed by other tools such as seurat: [Normalization](./blog/scvi/scanpy_normalize.md)
 
 ```r
 # Filtering
