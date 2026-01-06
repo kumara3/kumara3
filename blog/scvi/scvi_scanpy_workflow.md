@@ -8,6 +8,7 @@ This walkthrough shows how to:
 - Preprocess with Scanpy (filtering, normalization, log1p, HVGs)
 - Train an **SCVI** model and plot the training curve (negative ELBO)
 - Save the trained model to disk
+- Reference: https://docs.scvi-tools.org/en/stable/tutorials/notebooks/r/api_overview_in_R.html; https://github.com/scverse/scanpy/issues/2578
 
 ---
 
@@ -92,7 +93,7 @@ adata$X$shape
 
 ---
 
-## Preprocessing (Scanpy)
+## Preprocessing using Scanpy 
 
 > **Storage convention used here**
 >
@@ -121,7 +122,7 @@ adata$raw <- adata
 
 ---
 
-## Highly variable genes (HVGs)
+## Highly variable genes
 
 ```r
 sc$pp$highly_variable_genes(
