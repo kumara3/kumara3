@@ -14,21 +14,14 @@ Every sequencing technology we run in the lab is really an answer to the same qu
 
 **Single-cell multiomics:- 10x Genomics.** Paired RNA + ATAC from the same nucleus removes the need to computationally match cells across separate experiments. The output is two matrices sharing a barcode joint dimensionality reduction (e.g., weighted nearest neighbor integration) and peak-to-gene linkage become far better constrained than with unpaired, computationally integrated data. It’s still not a solved problem, a recent benchmark found that existing peak-gene linking scores had low concordance with fine-mapped eQTL data and underperformed a simple genomic-distance heuristic but paired measurement is the right substrate for the question.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------
-  Technology                  Typical scale per run             Primary noise source                         Significant compute step
-  --------------------------- --------------------------------- -------------------------------------------- -------------------------------------
-  scRNA-seq                   5k–100k+ cells                    Dropout, ambient RNA                         Batch integration, DE testing
-
-  scATAC-seq                  5k–50k cells                      Sparsity (2 allele copies), fragment noise   Peak calling, footprinting
-
-  Multiome (10x)              5k–20k cells, paired              Both above, plus modality imbalance          Joint embedding, peak-gene linking
-
-  WGS — Illumina              10³–10⁶ individuals               LD, population stratification                Fine-mapping, colocalization
-
-  WGS/methylation — ONT       Single genome, native molecules   Basecalling/modification-calling error       Repeat sizing, modification calling
-
-  RNA methylation (m6A-seq)   Bulk, paired IP/input             Antibody enrichment bias                     Peak calling, motif validation
-  ------------------------------------------------------------------------------------------------------------------------------------------------
+| Technology | Typical scale per run | Primary noise source | Significant compute step |
+| --- | --- | --- | --- |
+| scRNA-seq | 5k–100k+ cells | Dropout, ambient RNA | Batch integration, DE testing |
+| scATAC-seq | 5k–50k cells | Sparsity (2 allele copies), fragment noise | Peak calling, footprinting |
+| Multiome (10x) | 5k–20k cells, paired | Both above, plus modality imbalance | Joint embedding, peak-gene linking |
+| WGS — Illumina | 10³–10⁶ individuals | LD, population stratification | Fine-mapping, colocalization |
+| WGS/methylation — ONT | Single genome, native molecules | Basecalling/modification-calling error | Repeat sizing, modification calling |
+| RNA methylation (m6A-seq) | Bulk, paired IP/input | Antibody enrichment bias | Peak calling, motif validation |
 
 ## From Data to Mechanism to Drug Target
 
