@@ -39,8 +39,7 @@ The bottlenecks are real and mostly statistical, not just computational. Peak-ge
 
 ## A Working Model: Where Each Assay Fits
 
-![Multi-omic layers and the sequencing technologies that connect them](media/image1.png)
+<p align="center"> <img src="media/image1.png" alt="Multi-omic layers and the sequencing technologies that connect them" width="600"> <br> <em>Multi-omic layers and the sequencing technologies that connect them</em> </p>
 
-Multi-omic layers and the sequencing technologies that connect them
 
 Sequencing covers DNA, chromatin, and RNA (including its chemical modifications) comprehensively, and spatial platforms tie the RNA/chromatin readout back to tissue architecture. The protein and metabolome layers are the visible gap: NGS tells you what’s transcribed and how it’s modified, but not how much protein is made, how it’s folded or trafficked, or what metabolic flux results. That further requires proteomics and metabolomics, and the *methionine → Mettl3 → m6A* axis in ADPKD is a concrete example of the metabolome feeding back upstream into the RNA layer, which is exactly the kind of loop that a genomics-only pipeline will miss. Closing that gap pairing sequencing-based layers with proteomic and metabolomic readouts in the same samples or cells is the next integration problem, not a solved one.
