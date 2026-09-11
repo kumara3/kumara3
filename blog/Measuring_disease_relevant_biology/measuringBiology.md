@@ -1,4 +1,4 @@
-# Measuring Disease-Relevant Biology*.*
+# Measuring Disease-Relevant Biology
 
 Every sequencing technology we run in the lab is really an answer to the same question, asked at a different layer of biology: **what changed, where, and why does it matter for disease?** WGS tells you *why this person and not that one*. Methylation and chromatin assays tell you *what’s turned on or off*. RNA-seq tells you *what the cell is actually doing about it*. None of these answer the whole question alone. Mechanism discovery today is a multi-layer inference problem, not a single-assay one. Below is a working tour of the toolkit, some real examples of how it plays out from data to drug target, and where the whole stack tends to get stuck.
 
@@ -39,7 +39,7 @@ The bottlenecks are real and mostly statistical, not just computational. Peak-ge
 
 ## A Working Model: Where Each Assay Fits
 
-![Multi-omic layers and the sequencing technologies that connect them](media/image1.png){width="5.833333333333333in" height="6.506225940507437in"}
+![Multi-omic layers and the sequencing technologies that connect them](media/image1.png)
 
 Multi-omic layers and the sequencing technologies that connect them
 
