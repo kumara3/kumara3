@@ -62,6 +62,7 @@ I prioritize mentoring junior team members and partnering effectively with senio
 
 | Topic 🚀 | Link to Read 📖 |
 |:--|:--:|
+| **Measuring disease relevant biology** | [Read →](blog/Measuring_disease_relevant_biology/measuringBiology.md) |
 | **scVI and scanpy in R** | [Read →](blog/scvi/scvi_scanpy_workflow.md) |
 | **Single Cell (scVI)** | [Read →](blog/scvi/scvi_markdown.md) |
 | **Fine tuning using LoRA (LLM)** | [Read →](https://github.com/kumara3/DeepDive_LORA) |
